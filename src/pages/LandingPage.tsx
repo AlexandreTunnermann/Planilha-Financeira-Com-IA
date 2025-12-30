@@ -15,7 +15,7 @@ const LandingPage = () => {
     <div className="font-inter antialiased" style={{ backgroundColor: bgColor, color: '#FFFFFF' }}>
       
       {/* DOBRA 1 - HEADLINE */}
-      <section className="min-h-screen flex items-center px-6 py-20" style={{ background: bgGradient }}>
+      <section className="min-h-screen flex items-center px-6 py-20 md:py-16" style={{ background: bgGradient }}>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
             <span className="text-sm mb-4 uppercase font-bold tracking-widest inline-block" style={{ color: primaryColor }}>IA FINANCEIRA</span>
@@ -41,7 +41,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 2 - PROVA SOCIAL */}
-      <section className="py-20 px-6" style={{ backgroundColor: safetyBgColor, color: bgColor }}>
+      <section className="py-20 md:py-16 px-6" style={{ backgroundColor: safetyBgColor, color: bgColor }}>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">Mais de 1.450 pessoas já recuperaram o sono e o controle do saldo.</h2>
           <p className="text-lg text-center mb-12 font-medium">"Confira o que estão dizendo no WhatsApp:"</p>
@@ -63,7 +63,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 3 - PEDRA NO SAPATO */}
-      <section className="py-20 px-6" style={{ backgroundColor: bgColor }}>
+      <section className="py-20 md:py-16 px-6" style={{ backgroundColor: bgColor }}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-10">A cada dia que passa você trabalha apenas para ver o saldo sumir...</h2>
           <div className="space-y-6">
@@ -84,7 +84,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 4 - DIAGNÓSTICO */}
-      <section className="py-20 px-6" style={{ backgroundColor: bgColor }}>
+      <section className="py-20 md:py-16 px-6" style={{ backgroundColor: bgColor }}>
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">ENTENDA DE UMA VEZ POR TODAS...</h2>
           <p className="text-xl md:text-2xl mb-12 font-medium" style={{ color: textSecondaryColor }}>
@@ -113,7 +113,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 5 - MODO DE PREPARO */}
-      <section className="py-20 px-6" style={{ backgroundColor: bgGradient }}>
+      <section className="py-20 md:py-16 px-6" style={{ backgroundColor: bgGradient }}>
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-12">Estes são os 3 passos para você assumir o controle:</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -137,7 +137,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 6 - ENTREGÁVEIS */}
-      <section className="py-20 px-6" style={{ backgroundColor: bgColor }}>
+      <section className="py-20 md:py-16 px-6" style={{ backgroundColor: bgColor }}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">TUDO QUE VOCÊ VAI RECEBER</h2>
           <div className="space-y-4">
@@ -158,7 +158,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 7 - PRA QUEM É */}
-      <section className="py-20 px-6" style={{ backgroundColor: bgGradient }}>
+      <section className="py-20 md:py-16 px-6" style={{ backgroundColor: bgGradient }}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">O Sistema é para você que...</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -183,7 +183,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 8 - ANCORAGEM */}
-      <section className="py-20 px-6" style={{ backgroundColor: bgColor }}>
+      <section className="py-20 md:py-16 px-6" style={{ backgroundColor: bgColor }}>
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-12">Recapitulando tudo que você vai receber:</h2>
           <div className="space-y-4 mb-8">
@@ -213,7 +213,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 9 - PREÇO + BOTÃO */}
-      <section id="purchase" className="py-20 px-6 flex justify-center" style={{ backgroundColor: bgColor }}>
+      <section id="purchase" className="py-20 md:py-16 px-6 flex justify-center" style={{ backgroundColor: bgColor }}>
         <div className="w-full max-w-lg rounded-3xl p-10 text-center shadow-[0_0_50px_rgba(204,255,0,0.1)]" style={{ backgroundColor: 'rgba(255, 255, 255, 0.05)', border: `2px solid ${primaryColor}` }}>
           <h3 className="font-bold text-xl mb-2" style={{ color: primaryColor }}>Hoje você terá acesso por apenas:</h3>
           <div className="text-gray-400">De R$ 258,00 por apenas:</div>
@@ -233,7 +233,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 10 - CONVERSA SÉRIA */}
-      <section className="py-20 px-6" style={{ backgroundColor: bgGradient }}>
+      <section className="py-20 md:py-16 px-6" style={{ backgroundColor: bgGradient }}>
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-12">Você tem duas escolhas agora:</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -251,7 +251,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 11 - AUTORIDADE */}
-      <section className="py-20 px-6" style={{ backgroundColor: bgColor }}>
+      <section className="py-20 md:py-16 px-6" style={{ backgroundColor: bgColor }}>
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-center md:text-left">
           <div className="flex justify-center md:justify-end">
             <img 
@@ -274,7 +274,7 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 12 - FAQ */}
-      <section className="py-20 px-6" style={{ backgroundColor: bgGradient }}>
+      <section className="py-20 md:py-16 px-6" style={{ backgroundColor: bgGradient }}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Perguntas Frequentes</h2>
           <div className="space-y-6">
