@@ -78,9 +78,9 @@ const LandingPage = () => {
             {painPoints.map((item, index) => {
               const IconComponent = item.icon;
               return (
-                <div key={index} className="p-6 rounded-r-xl italic text-gray-300 relative pl-12 flex items-center" style={{ backgroundColor: 'rgba(255, 255, 255, 0.05)', borderLeft: `44px solid ${primaryColor}` }}>
-                  <IconComponent className="absolute left-2 top-1/2 -translate-y-1/2" size={24} style={{ color: primaryColor }} />
-                  <p className="ml-2">{item.text}</p>
+                <div key={index} className="p-6 rounded-xl italic text-gray-300 flex items-center" style={{ backgroundColor: surfaceColor, border: `1px solid ${surfaceColor}` }}>
+                  <IconComponent className="mr-4 flex-shrink-0" size={24} style={{ color: primaryColor }} />
+                  <p>{item.text}</p>
                 </div>
               );
             })}
