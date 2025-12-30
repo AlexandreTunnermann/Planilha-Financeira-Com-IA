@@ -28,7 +28,7 @@ const LandingPage = () => {
           <div className="text-center md:text-left">
             <span className="text-sm mb-4 uppercase font-bold tracking-widest inline-block" style={{ color: primaryColor }}>IA FINANCEIRA</span>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6 max-w-4xl tracking-tighter">
-              Planilha de Controle Financeiro <span style={{ color: primaryColor }}>Automatizada</span> com IA
+              Planilha de Controle Financeiro <span style={{ color: primaryColor }}>Automatizada</span> <span style={{ color: primaryColor }}>com IA</span>
             </h1>
             <p className="text-lg md:text-xl max-w-2xl mb-6" style={{ color: textSecondaryColor }}>
               Tenha clareza total de para onde seu dinheiro vai em apenas 10 minutos por mês, sem precisar digitar um único gasto manualmente.
