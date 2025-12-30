@@ -31,7 +31,7 @@ const LandingPage = () => {
           </div>
           <div className="flex justify-center md:justify-start">
             <img 
-              src="/images/mockup-celular.png" 
+              src="/images/mockup-celular.webp" 
               alt="Mockup Celular com Planilha" 
               className="w-full max-w-sm md:max-w-md rounded-2xl shadow-2xl transform rotate-6" 
               style={{ border: '1px solid rgba(255, 255, 255, 0.1)' }}
