@@ -33,7 +33,7 @@ const LandingPage = () => {
             <img 
               src="/images/mockup-celular.webp" 
               alt="Mockup Celular com Planilha" 
-              className="w-full max-w-sm md:max-w-md rounded-2xl shadow-2xl transform rotate-6" 
+              className="w-full max-w-xs md:max-w-sm rounded-2xl shadow-2xl transform rotate-6" 
               style={{ border: '1px solid rgba(255, 255, 255, 0.1)' }}
             />
           </div>
