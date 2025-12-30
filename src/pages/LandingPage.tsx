@@ -66,7 +66,7 @@ const LandingPage = () => {
               "Eu desisti de anotar porque sempre esqueço de pedir a nota fiscal.",
               "Sinto que estou em uma corrida de ratos, vivendo apenas para pagar boleto."
             ].map((phrase, index) => (
-              <div key={index} className="p-6 rounded-r-xl italic text-gray-300 relative pl-10" style={{ backgroundColor: 'rgba(255, 255, 255, 0.05)', borderLeft: `4px solid ${primaryColor}` }}>
+              <div key={index} className="p-6 rounded-r-xl italic text-gray-300 relative pl-10" style={{ backgroundColor: 'rgba(255, 255, 255, 0.05)', borderLeft: `44px solid ${primaryColor}` }}>
                 <span className="absolute left-2 top-1/2 -translate-y-1/2 text-2xl font-bold" style={{ color: primaryColor }}>"</span>
                 {phrase}
               </div>
@@ -267,7 +267,7 @@ const LandingPage = () => {
               <p style={{ color: textSecondaryColor }}>Não, a IA e nossos vídeos fazem tudo por você.</p>
             </div>
             <div className="p-6 rounded-xl" style={{ backgroundColor: surfaceColor }}>
-              <h3 className="text-xl font-bold mb-2 flex items-center"><MessageCircleCircleQuestion className="mr-3" style={{ color: primaryColor }} /> Funciona no celular?</h3>
+              <h3 className="text-xl font-bold mb-2 flex items-center"><MessageCircleQuestion className="mr-3" style={{ color: primaryColor }} /> Funciona no celular?</h3>
               <p style={{ color: textSecondaryColor }}>Sim, totalmente compatível.</p>
             </div>
             <div className="p-6 rounded-xl" style={{ backgroundColor: surfaceColor }}>
