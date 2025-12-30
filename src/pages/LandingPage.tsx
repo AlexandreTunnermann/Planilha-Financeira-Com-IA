@@ -244,14 +244,23 @@ const LandingPage = () => {
 
       {/* DOBRA 11 - AUTORIDADE */}
       <section className="py-20 px-6" style={{ backgroundColor: bgColor }}>
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Alexandre Tünnermann criou este sistema.</h2>
-          <p className="text-xl font-medium mb-6" style={{ color: textSecondaryColor }}>
-            Especialista formado em Finanças e Contabilidade pela University of Notre Dame (Austrália).
-          </p>
-          <div className="p-8 rounded-xl italic text-gray-300 relative pl-12" style={{ backgroundColor: surfaceColor, borderLeft: `4px solid ${primaryColor}` }}>
-            <span className="absolute left-2 top-1/2 -translate-y-1/2 text-2xl font-bold" style={{ color: primaryColor }}>"</span>
-            "Como consultor, eu via pessoas brilhantes perdendo tudo por falta de organização. Eu mesmo odiava tarefas repetitivas e por vezes me sentia um hipócrita pedindo que meus clientes planilhassem todos os seus gastos. Por isso criei este sistema 'preguiçoso': A Inteligência Artificial faz o trabalho duro para que você só precise olhar os resultados."
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-center md:text-left">
+          <div className="flex justify-center md:justify-end">
+            <img 
+              src="/images/alexandre-tunnermann.png" 
+              alt="Alexandre Tünnermann" 
+              className="w-full max-w-xs md:max-w-sm rounded-xl shadow-lg" 
+            />
+          </div>
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-8">Alexandre Tünnermann criou este sistema.</h2>
+            <p className="text-xl font-medium mb-6" style={{ color: textSecondaryColor }}>
+              Especialista formado em Finanças e Contabilidade pela University of Notre Dame (Austrália).
+            </p>
+            <div className="p-8 rounded-xl italic text-gray-300 relative pl-12" style={{ backgroundColor: surfaceColor, borderLeft: `4px solid ${primaryColor}` }}>
+              <span className="absolute left-2 top-1/2 -translate-y-1/2 text-2xl font-bold" style={{ color: primaryColor }}>"</span>
+              "Como consultor, eu via pessoas brilhantes perdendo tudo por falta de organização. Eu mesmo odiava tarefas repetitivas e por vezes me sentia um hipócrita pedindo que meus clientes planilhassem todos os seus gastos. Por isso criei este sistema 'preguiçoso': A Inteligência Artificial faz o trabalho duro para que você só precise olhar os resultados."
+            </div>
           </div>
         </div>
       </section>
