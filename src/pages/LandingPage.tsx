@@ -208,10 +208,9 @@ const LandingPage = () => {
       <section id="purchase" className="py-20 px-6 flex justify-center" style={{ backgroundColor: bgColor }}>
         <div className="w-full max-w-lg rounded-3xl p-10 text-center shadow-[0_0_50px_rgba(204,255,0,0.1)]" style={{ backgroundColor: 'rgba(255, 255, 255, 0.05)', border: `2px solid ${primaryColor}` }}>
           <h3 className="font-bold text-xl mb-2" style={{ color: primaryColor }}>Hoje você terá acesso por apenas:</h3>
-          <div className="text-gray-400 line-through">De R$ 258,00 por apenas:</div>
-          <div className="text-sm mt-4">9x de</div>
-          <div className="text-6xl font-black text-white my-2">R$ 8,50</div>
-          <div className="text-lg text-gray-300 mb-8 font-medium">ou R$ 67,00 à vista</div>
+          <div className="text-gray-400">De R$ 258,00 por apenas:</div>
+          <div className="text-6xl font-black text-white my-2">R$ 67,00</div>
+          <div className="text-lg text-gray-300 mb-8 font-medium">ou 9x de R$ 8,50</div>
           
           <button className="w-full font-bold py-5 rounded-xl text-xl hover:scale-105 transition-transform duration-300" style={{ backgroundColor: primaryColor, color: bgColor }}>
             QUERO ACESSO IMEDIATO
