@@ -198,7 +198,7 @@ const LandingPage = () => {
           </div>
           <div className="flex justify-between items-center text-2xl font-bold p-4 rounded-md" style={{ backgroundColor: primaryColor, color: bgColor }}>
             <span>TOTAL:</span>
-            <span>R$ 258,00</span>
+            <span className="line-through">R$ 258,00</span>
           </div>
           <p className="text-sm mt-4" style={{ color: textSecondaryColor }}>(valor real se comprado separado)</p>
         </div>
