@@ -251,7 +251,7 @@ const LandingPage = () => {
           </p>
           <div className="p-8 rounded-xl italic text-gray-300 relative pl-12" style={{ backgroundColor: surfaceColor, borderLeft: `4px solid ${primaryColor}` }}>
             <span className="absolute left-2 top-1/2 -translate-y-1/2 text-2xl font-bold" style={{ color: primaryColor }}>"</span>
-            "Como consultor, eu via pessoas brilhantes perdendo tudo por falta de organização. Eu mesmo odiava tarefas repetitivas, por isso criei este sistema 'preguiçoso': ele faz o trabalho duro para que você só precise colher os lucros."
+            "Como consultor, eu via pessoas brilhantes perdendo tudo por falta de organização. Eu mesmo odiava tarefas repetitivas e por vezes me sentia um hipócrita pedindo que meus clientes planilhassem todos os seus gastos. Por isso criei este sistema 'preguiçoso': A Inteligência Artificial faz o trabalho duro para que você só precise olhar os resultados."
           </div>
         </div>
       </section>
