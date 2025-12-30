@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig(() => ({
-  base: '/Planilha-Financeira-Com-IA/', // Adicionado o caminho base do repositório
+  base: '/', // Alterado para a raiz para Vercel
   server: {
     host: "::",
     port: 8080,

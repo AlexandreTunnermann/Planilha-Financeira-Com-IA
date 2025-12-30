@@ -13,7 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/Planilha-Financeira-Com-IA/"> {/* Adicionado o basename aqui */}
+      <BrowserRouter basename="/"> {/* Alterado para a raiz para Vercel */}
         <Routes>
           <Route path="/" element={<LandingPage />} /> {/* Set LandingPage as the default route */}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
