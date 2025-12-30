@@ -27,7 +27,7 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
             <span className="text-sm mb-4 uppercase font-bold tracking-widest inline-block" style={{ color: primaryColor }}>IA FINANCEIRA</span>
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 max-w-4xl tracking-tighter">
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6 max-w-4xl tracking-tighter">
               Planilha de Controle Financeiro <span style={{ color: primaryColor }}>Automatizada</span> com IA
             </h1>
             <p className="text-lg md:text-xl max-w-2xl mb-6" style={{ color: textSecondaryColor }}>
