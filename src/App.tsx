@@ -13,7 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/Planilha-Financeira-Com-IA/"> {/* Adicionado o basename aqui */}
         <Routes>
           <Route path="/" element={<LandingPage />} /> {/* Set LandingPage as the default route */}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
