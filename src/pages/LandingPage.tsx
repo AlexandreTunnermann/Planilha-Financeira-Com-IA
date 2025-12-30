@@ -31,7 +31,7 @@ const LandingPage = () => {
           </div>
           <div className="flex justify-center md:justify-start">
             <img 
-              src="/images/mockup-dispositivos.webp" 
+              src={`${import.meta.env.BASE_URL}images/mockup-dispositivos.webp`} 
               alt="Mockup de dispositivos com planilha financeira" 
               className="w-full max-w-md md:max-w-lg rounded-2xl shadow-2xl transform rotate-6" 
               style={{ border: '1px solid rgba(255, 255, 255, 0.1)' }}
@@ -255,7 +255,7 @@ const LandingPage = () => {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-center md:text-left">
           <div className="flex justify-center md:justify-end">
             <img 
-              src="/images/alexandre-tunnermann.png" 
+              src={`${import.meta.env.BASE_URL}images/alexandre-tunnermann.png`} 
               alt="Alexandre Tünnermann" 
               className="w-full max-w-xs md:max-w-sm rounded-xl shadow-lg" 
             />
