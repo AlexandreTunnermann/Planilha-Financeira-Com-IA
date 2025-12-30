@@ -181,19 +181,19 @@ const LandingPage = () => {
           <div className="space-y-4 mb-8">
             <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: surfaceColor }}>
               <span>Planilha Mestre com IA</span>
-              <span className="font-bold">R$ 97,00</span>
+              <span className="font-bold line-through text-gray-400">R$ 97,00</span>
             </div>
             <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: surfaceColor }}>
               <span>Guia de Configuração + Checklist</span>
-              <span className="font-bold">R$ 47,00</span>
+              <span className="font-bold line-through text-gray-400">R$ 47,00</span>
             </div>
             <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: surfaceColor }}>
               <span>Vídeo-aula Turbo</span>
-              <span className="font-bold">R$ 67,00</span>
+              <span className="font-bold line-through text-gray-400">R$ 67,00</span>
             </div>
             <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: surfaceColor }}>
               <span>Guia Aumento de Score</span>
-              <span className="font-bold">R$ 47,00</span>
+              <span className="font-bold line-through text-gray-400">R$ 47,00</span>
             </div>
           </div>
           <div className="flex justify-between items-center text-2xl font-bold p-4 rounded-md" style={{ backgroundColor: primaryColor, color: bgColor }}>
@@ -267,7 +267,7 @@ const LandingPage = () => {
               <p style={{ color: textSecondaryColor }}>Não, a IA e nossos vídeos fazem tudo por você.</p>
             </div>
             <div className="p-6 rounded-xl" style={{ backgroundColor: surfaceColor }}>
-              <h3 className="text-xl font-bold mb-2 flex items-center"><MessageCircleQuestion className="mr-3" style={{ color: primaryColor }} /> Funciona no celular?</h3>
+              <h3 className="text-xl font-bold mb-2 flex items-center"><MessageCircleCircleQuestion className="mr-3" style={{ color: primaryColor }} /> Funciona no celular?</h3>
               <p style={{ color: textSecondaryColor }}>Sim, totalmente compatível.</p>
             </div>
             <div className="p-6 rounded-xl" style={{ backgroundColor: surfaceColor }}>
