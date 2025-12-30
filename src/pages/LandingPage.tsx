@@ -15,20 +15,28 @@ const LandingPage = () => {
     <div className="font-inter antialiased" style={{ backgroundColor: bgColor, color: '#FFFFFF' }}>
       
       {/* DOBRA 1 - HEADLINE */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 py-20 text-center" style={{ background: bgGradient }}>
-        <span className="text-sm mb-4 uppercase font-bold tracking-widest" style={{ color: primaryColor }}>IA FINANCEIRA</span>
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 max-w-4xl tracking-tighter">
-          Planilha de Controle Financeiro <span style={{ color: primaryColor }}>Automatizada</span> com IA
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mb-6" style={{ color: textSecondaryColor }}>
-          Tenha clareza total de para onde seu dinheiro vai em apenas 10 minutos por mês, sem precisar digitar um único gasto manualmente.
-        </p>
-        <p className="text-md md:text-lg max-w-2xl mb-10 font-medium" style={{ color: textSecondaryColor }}>
-          A tecnologia que os bancos usam para lucrar, agora disponível para você dominar sua conta bancária.
-        </p>
-        <div className="w-full max-w-md rounded-2xl p-8 backdrop-blur-xl" style={{ backgroundColor: surfaceColor, border: '1px solid rgba(255, 255, 255, 0.1)' }}>
-           <div className="text-sm text-gray-400 mb-2">📦 Inserir mockup do produto aqui</div>
-           <div className="h-48 bg-gray-800/50 rounded flex items-center justify-center text-gray-500">MOCKUP 3D</div>
+      <section className="min-h-screen flex items-center px-6 py-20" style={{ background: bgGradient }}>
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="text-center md:text-left">
+            <span className="text-sm mb-4 uppercase font-bold tracking-widest inline-block" style={{ color: primaryColor }}>IA FINANCEIRA</span>
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 max-w-4xl tracking-tighter">
+              Planilha de Controle Financeiro <span style={{ color: primaryColor }}>Automatizada</span> com IA
+            </h1>
+            <p className="text-lg md:text-xl max-w-2xl mb-6" style={{ color: textSecondaryColor }}>
+              Tenha clareza total de para onde seu dinheiro vai em apenas 10 minutos por mês, sem precisar digitar um único gasto manualmente.
+            </p>
+            <p className="text-md md:text-lg max-w-2xl mb-10 font-medium" style={{ color: textSecondaryColor }}>
+              A tecnologia que os bancos usam para lucrar, agora disponível para você dominar sua conta bancária.
+            </p>
+          </div>
+          <div className="flex justify-center md:justify-start">
+            <img 
+              src="/images/mockup-celular.png" 
+              alt="Mockup Celular com Planilha" 
+              className="w-full max-w-sm md:max-w-md rounded-2xl shadow-2xl transform rotate-6" 
+              style={{ border: '1px solid rgba(255, 255, 255, 0.1)' }}
+            />
+          </div>
         </div>
       </section>
 
