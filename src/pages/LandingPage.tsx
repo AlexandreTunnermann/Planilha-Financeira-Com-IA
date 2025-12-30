@@ -188,25 +188,25 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 8 - ANCORAGEM */}
-      <section className="py-12 md:py-8 px-6" style={{ backgroundColor: bgColor }}>
+      <section className="py-12 md:py-8 px-6" style={{ backgroundColor: safetyBgColor, color: bgColor }}>
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-12">Recapitulando tudo que você vai receber:</h2>
           <div className="space-y-4 mb-8">
-            <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: surfaceColor }}>
+            <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
               <span>Planilha Mestre com IA</span>
-              <span className="font-bold line-through text-gray-400">R$ 97,00</span>
+              <span className="font-bold line-through text-gray-600">R$ 97,00</span>
             </div>
-            <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: surfaceColor }}>
+            <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
               <span>Guia de Configuração + Checklist</span>
-              <span className="font-bold line-through text-gray-400">R$ 47,00</span>
+              <span className="font-bold line-through text-gray-600">R$ 47,00</span>
             </div>
-            <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: surfaceColor }}>
+            <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
               <span>Vídeo-aula Turbo</span>
-              <span className="font-bold line-through text-gray-400">R$ 67,00</span>
+              <span className="font-bold line-through text-gray-600">R$ 67,00</span>
             </div>
-            <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: surfaceColor }}>
+            <div className="flex justify-between items-center text-lg p-3 rounded-md" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
               <span>Guia Aumento de Score</span>
-              <span className="font-bold line-through text-gray-400">R$ 47,00</span>
+              <span className="font-bold line-through text-gray-600">R$ 47,00</span>
             </div>
           </div>
           <div className="flex justify-between items-center text-2xl font-bold p-4 rounded-md" style={{ backgroundColor: primaryColor, color: bgColor }}>
@@ -218,18 +218,18 @@ const LandingPage = () => {
       </section>
 
       {/* DOBRA 9 - PREÇO + BOTÃO */}
-      <section id="purchase" className="py-12 md:py-8 px-6 flex justify-center" style={{ backgroundColor: bgColor }}>
-        <div className="w-full max-w-lg rounded-3xl p-10 text-center shadow-[0_0_50px_rgba(204,255,0,0.1)]" style={{ backgroundColor: 'rgba(255, 255, 255, 0.05)', border: `2px solid ${primaryColor}` }}>
+      <section id="purchase" className="py-12 md:py-8 px-6 flex justify-center" style={{ backgroundColor: safetyBgColor, color: bgColor }}>
+        <div className="w-full max-w-lg rounded-3xl p-10 text-center shadow-[0_0_50px_rgba(204,255,0,0.1)]" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)', border: `2px solid ${primaryColor}` }}>
           <h3 className="font-bold text-xl mb-2" style={{ color: primaryColor }}>Hoje você terá acesso por apenas:</h3>
-          <div className="text-gray-400">De R$ 258,00 por apenas:</div>
-          <div className="text-6xl font-black text-white my-2">R$ 67,00</div>
-          <div className="text-lg text-gray-300 mb-8 font-medium">ou 9x de R$ 8,50</div>
+          <div className="text-gray-600">De R$ 258,00 por apenas:</div>
+          <div className="text-6xl font-black my-2" style={{ color: bgColor }}>R$ 67,00</div>
+          <div className="text-lg text-gray-600 mb-8 font-medium">ou 9x de R$ 8,50</div>
           
           <button className="w-full font-bold py-5 rounded-xl text-xl hover:scale-105 transition-transform duration-300" style={{ backgroundColor: primaryColor, color: bgColor }}>
             QUERO ACESSO IMEDIATO
           </button>
           
-          <div className="mt-6 flex flex-col items-center gap-2 text-sm text-gray-400">
+          <div className="mt-6 flex flex-col items-center gap-2 text-sm text-gray-600">
             <span className="flex items-center gap-2"><Zap size={16} style={{ color: primaryColor }} /> Acesso imediato</span>
             <span className="flex items-center gap-2"><ShieldCheck size={16} style={{ color: primaryColor }} /> Garantia de 7 dias</span>
             <span className="flex items-center gap-2"><CreditCard size={16} style={{ color: primaryColor }} /> Compra 100% segura</span>
