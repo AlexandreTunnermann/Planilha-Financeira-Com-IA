@@ -23,7 +23,7 @@ const LandingPage = () => {
     <div className="font-inter antialiased" style={{ backgroundColor: bgColor, color: '#FFFFFF' }}>
       
       {/* DOBRA 1 - HEADLINE */}
-      <section className="min-h-screen flex items-center px-6 py-16 md:py-12" style={{ background: bgGradient }}>
+      <section className="flex items-center px-6 py-24" style={{ background: bgGradient }}>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
             <span className="text-sm mb-4 uppercase font-bold tracking-widest inline-block" style={{ color: primaryColor }}>IA FINANCEIRA</span>
